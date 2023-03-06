@@ -1,0 +1,217 @@
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --primary-color: #2e2f42;
+    --secondary-color: #ffffff;
+    --active-btn-color: #404bbf;
+    --primary-logo-color: #4d5ae5;
+    --address-color: #434455;
+    --footer-logo-color: #f4f4fd;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: #434455;
+}
+.link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus {
+    color: var(--active-btn-color);
+}
+.link-address {
+    font-style: normal;
+    color: var(--address-color);
+}
+
+/* === COMPONENTS === */
+.list {
+    list-style: none;
+}
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-logo-color);
+}
+.header-logo {
+    color: var(--primary-color);
+}
+.footer-logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--footer-logo-color);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
+
+.default-font-size {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.filter-buttons {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background: #f4f4fd;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+}
+.filter-buttons:hover,
+.filter-buttons:focus {
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    order: 0;
+}
+/* === /COMPONENTS === */
+
+/* HEADER */
+
+.menu-nav-item {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.menu-color {
+    color: var(--primary-color);
+}
+.menu-address-item {
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+.menu-address-color {
+    color: var(--address-color);
+}
+/* /HEADER */
+
+/* MAIN */
+/* === HERO === */
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+
+.hero-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--secondary-color);
+    background: #4d5ae5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background: #404bbf;
+}
+.hero {
+    background: #2e2f42;
+}
+/* === /HERO === */
+
+/* === STUDIO === */
+/* .menu-studio-item {
+} */
+.menu-studio-head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+.menu-studio-description {
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* === /STUDIO === */
+
+/* === CONTACTS === */
+/* .menu-contacts-item{
+
+} */
+.menu-contacts-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+.menu-contacts-work {
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* === /CONTACTS === */
+
+.footer-bg {
+    background: var(--primary-color);
+}
+.footer-description {
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #e7e9fc;
+}
+/* === /MAIN === */
+
+/* === PORTFOLIO === */
+.menu-flt-head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.menu-flt {
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* === /PORTFOLIO === */
