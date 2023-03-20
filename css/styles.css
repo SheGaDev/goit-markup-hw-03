@@ -64,9 +64,7 @@ img {
     color: var(--address-color);
 }
 .container {
-    display: flex;
-    align-items: center;
-    width: 1228px;
+    width: 1258px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -120,14 +118,14 @@ img {
     order: 0;
 }
 .filter-buttons {
+    display: flex;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 72px;
 }
 .page-header {
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .menu-nav-item {
@@ -193,7 +191,7 @@ img {
     background-color: #2e2f42;
 }
 .list-std {
-    flex-direction: row;
+    display: flex;
     justify-content: center;
     gap: 24px;
 }
@@ -227,27 +225,29 @@ img {
     border-radius: 0px 0px 4px 4px;
     gap: 24px;
 }
+.menu-contacts-div {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
 .menu-contacts-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
-    margin-top: 32px;
-    margin-bottom: 8px;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+    margin-bottom: 8px;
 }
 .menu-contacts-work {
     font-weight: 400;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
 }
 .footer-bg {
-    height: 312px;
     background-color: var(--primary-color);
 }
 .footer-description {
+    margin-top: 17.5px;
     font-weight: 400;
     width: 264px;
     letter-spacing: 0.02em;
@@ -256,43 +256,45 @@ img {
 .footer-flex {
     display: flex;
     flex-direction: column;
-    margin-left: 156px;
-}
-.footer-logo-bf {
-    margin-top: 101.5px;
-    margin-bottom: 17.5px;
+    padding-left: 156px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .menu-flt-head {
     font-weight: 500;
     font-size: 20px;
-    margin-left: 16px;
     text-align: left;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 .menu-flt {
-    margin-left: 16px;
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.menu-flt-div {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+}
 .menu-flt-cards {
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 48px 24px;
 }
 .menu-flt-card {
     width: 360px;
     height: 420px;
 }
-.menu-flt-card:nth-last-child(-n + 3){
+.menu-flt-card:nth-last-child(-n + 3) {
     border: 1px solid #e7e9fc;
 }
 .section-flt {
     padding-top: 96px;
-    padding-bottom: 120px;
+    padding-bottom: 72px;
 }
 .section {
     padding-top: 120px;
